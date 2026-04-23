@@ -1,0 +1,655 @@
+venv/lib/python3.12/site-packages/packaging/licenses/_spdx.py:    'bootloader-exception': {'id': 'Bootloader-exception', 'deprecated': False},
+venv/lib/python3.12/site-packages/packaging/licenses/_spdx.py:    'u-boot-exception-2.0': {'id': 'u-boot-exception-2.0', 'deprecated': False},
+venv/lib/python3.12/site-packages/pip/_vendor/rich/status.py:    with console.status("[magenta]Covid detector booting up") as status:
+venv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py:    "hiking_boot": "🥾",
+venv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py:    "woman’s_boot": "👢",
+venv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py:    "boot": "👢",
+venv/lib/python3.12/site-packages/pip/_vendor/distlib/compat.py:                # Can't use functools.wraps() here because of bootstrap issues
+venv/lib/python3.12/site-packages/pip/_vendor/distlib/util.py:            # bootstrap problem. We use a dict to get an error
+venv/lib/python3.12/site-packages/pip/_vendor/requests/sessions.py:        # Bootstrap CookieJar.
+pax-s920/toolchain/arm-none-linux-gnueabi/share/gdb/syscalls/ppc-linux.xml:  <syscall name="reboot" number="88"/>
+pax-s920/toolchain/arm-none-linux-gnueabi/share/gdb/syscalls/sparc-linux.xml:  <syscall name="reboot" number="55"/>
+pax-s920/toolchain/arm-none-linux-gnueabi/share/gdb/syscalls/amd64-linux.xml:  <syscall name="reboot" number="169"/>
+pax-s920/toolchain/arm-none-linux-gnueabi/share/gdb/syscalls/sparc64-linux.xml:  <syscall name="reboot" number="55"/>
+pax-s920/toolchain/arm-none-linux-gnueabi/share/gdb/syscalls/ppc64-linux.xml:  <syscall name="reboot" number="88"/>
+pax-s920/toolchain/arm-none-linux-gnueabi/share/gdb/syscalls/i386-linux.xml:  <syscall name="reboot" number="88"/>
+pax-s920/toolchain/arm-none-linux-gnueabi/libc/etc/rpc:bootparam	100026
+pax-s920/toolchain/arm-none-linux-gnueabi/libc/thumb2/etc/rpc:bootparam	100026
+pax-s920/homebrew/rockbox/patches/firmware_export_config_sansafuzeplus.patch: #ifndef BOOTLOADER
+pax-s920/homebrew/rockbox/patches/firmware_export_config_sansafuzeplus.patch: #endif /* !BOOTLOADER */
+pax-s920/xcb-setup.md:First, shut down your PAX. When booting, repeatedly press the  `2`  keypad button (keep pressing even when the self-check is in progress). This will take you to the system menu. Find and open  **System Config**  (try the password  `123456`).
+pax-pos-app-pentest-guide/TESTE:0804d80b <service_bootstrap_func>:
+pax-linux-tools/svn_easyLink_project/src/remotedownload.c:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/src/remotedownload.c:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/src/remotedownload.c:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/src/remotedownload.c:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/src/remotedownload.c:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/src/remotedownload.c:		EL_LOG(LOG_DEBUG, LOG_TAG, __FUNCTION__, __LINE__, "reboot...\n");
+pax-linux-tools/svn_easyLink_project/src/remotedownload.c:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/src/remotedownload.c:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/src/filedownload.c:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/svn_easyLink_project/src/global.c:unsigned char	g_ucRebootFlag = 0x00;
+pax-linux-tools/svn_easyLink_project/src/comm.c:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/src/comm.c:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/src/comm.c:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/96/960691716c81786f6b40b80d6f2093bb4845ef84.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/96/960691716c81786f6b40b80d6f2093bb4845ef84.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/96/960691716c81786f6b40b80d6f2093bb4845ef84.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/42/427f74cba9d2f8b09fa79c22b2f1074c2fd43bd1.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/fa/faa9db4ab4ab0cff7c3b7dbf7bf00a7d454a0a29.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/fa/fa712be658d062faf8da63a9966e5b27f1345645.svn-base:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/svn_easyLink_project/.svn/pristine/fa/fac95b5ec5f06b79c4120a48504dd38a851eb089.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/fa/fac95b5ec5f06b79c4120a48504dd38a851eb089.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/fa/fac95b5ec5f06b79c4120a48504dd38a851eb089.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/78/782d36ab428963870be1f12c88d4c2f3066317bd.svn-base:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/svn_easyLink_project/.svn/pristine/e2/e2d926357bf62df774aa7342dc8db7a173390970.svn-base:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c0/c0e9390131badf58822ee0e5ad430977b93bcc64.svn-base:unsigned char	g_ucRebootFlag = 0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Open = %d\n", iFd);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usTaskNum=%d, iOffset=%d\n", iRet, usTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usDownloadedTaskNum=%d, iOffset=%d\n", iRet, usDownloadedTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, stTaskInfo.ucTaskType=%02x, stTaskInfo.ucDone=%02x, iOffset=%d\n", iRet, stTaskInfo.ucTaskType, stTaskInfo.ucDone, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:		AppLog("[sv_CheckIfRebootNeeded] reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a7/a73ee0d74248acca54744620a8d434ef93541df6.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0e/0e1eae9720b0f98ed020b86fdb68e7132f2592f4.svn-base:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/svn_easyLink_project/.svn/pristine/66/6617a00ec6a040a25199ce0b99670fe91adc72e5.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/66/6617a00ec6a040a25199ce0b99670fe91adc72e5.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/66/6617a00ec6a040a25199ce0b99670fe91adc72e5.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/fb/fbf9688c9bf029420e43af1a504b27eb056b9500.svn-base:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Open = %d\n", iFd);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usTaskNum=%d, iOffset=%d\n", iRet, usTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usDownloadedTaskNum=%d, iOffset=%d\n", iRet, usDownloadedTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, stTaskInfo.ucTaskType=%02x, stTaskInfo.ucDone=%02x, iOffset=%d\n", iRet, stTaskInfo.ucTaskType, stTaskInfo.ucDone, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:		AppLog("[sv_CheckIfRebootNeeded] reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/d8/d89b7c96bc930fb3acb6b7d4a95d0fe894411855.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Open = %d\n", iFd);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usTaskNum=%d, iOffset=%d\n", iRet, usTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usDownloadedTaskNum=%d, iOffset=%d\n", iRet, usDownloadedTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, stTaskInfo.ucTaskType=%02x, stTaskInfo.ucDone=%02x, iOffset=%d\n", iRet, stTaskInfo.ucTaskType, stTaskInfo.ucDone, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:		AppLog("[sv_CheckIfRebootNeeded] reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c1/c164927a2074492fd4cb3999168b78e8a8f0d0b7.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/c4/c4071888a24f64f5a234ab7fe2c35845b4d7e60b.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/07/07c5847acd343d34e72861d9a67341003a93ca8d.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/07/07fd738d765a854cd2db9c006cb4e7555ac723b4.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/07/07fd738d765a854cd2db9c006cb4e7555ac723b4.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/07/07fd738d765a854cd2db9c006cb4e7555ac723b4.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/f3/f35f0b2e5a5e5436e39208aaae9eafa8b13d7924.svn-base:unsigned char	g_ucRebootFlag = 0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f1b23d4294066b98e47d6c4af89f082a33cfbcf.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f1b23d4294066b98e47d6c4af89f082a33cfbcf.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f1b23d4294066b98e47d6c4af89f082a33cfbcf.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Open = %d\n", iFd);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usTaskNum=%d, iOffset=%d\n", iRet, usTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usDownloadedTaskNum=%d, iOffset=%d\n", iRet, usDownloadedTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, stTaskInfo.ucTaskType=%02x, stTaskInfo.ucDone=%02x, iOffset=%d\n", iRet, stTaskInfo.ucTaskType, stTaskInfo.ucDone, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:		AppLog("[sv_CheckIfRebootNeeded] reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/1f/1f4c6a646cc7a2779d51ba5761855ac56f743ba5.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/db/dbe8d6e0a14001da8c43a38bccedc53cf101e8e9.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/81/81cd791144c6de866c92402e374d0aa69057cd8c.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/81/81cd791144c6de866c92402e374d0aa69057cd8c.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/81/81cd791144c6de866c92402e374d0aa69057cd8c.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/80/80a545c613770abb564f084e0371ae82a515ffd1.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Open = %d\n", iFd);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usTaskNum=%d, iOffset=%d\n", iRet, usTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usDownloadedTaskNum=%d, iOffset=%d\n", iRet, usDownloadedTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, stTaskInfo.ucTaskType=%02x, stTaskInfo.ucDone=%02x, iOffset=%d\n", iRet, stTaskInfo.ucTaskType, stTaskInfo.ucDone, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:		AppLog("[sv_CheckIfRebootNeeded] reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ff/ffc349e632eee27ef7b29b8484d2950beaae6298.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/2b/2bf33f35d2a0c881fae73852462131d394afed8d.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/2b/2bf33f35d2a0c881fae73852462131d394afed8d.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/2b/2bf33f35d2a0c881fae73852462131d394afed8d.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/8a/8a71e1ca3f40c08e4dc529869d96398d1e8d3632.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/8a/8a71e1ca3f40c08e4dc529869d96398d1e8d3632.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/8a/8a71e1ca3f40c08e4dc529869d96398d1e8d3632.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/4e/4e2cb5b0249960f4e4421ed9f0431628f8f987be.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/4e/4e2cb5b0249960f4e4421ed9f0431628f8f987be.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/4e/4e2cb5b0249960f4e4421ed9f0431628f8f987be.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/90/90df4241b431ca8c88df680d6454d29a2b4b82aa.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a3/a345d294834ba5babf58c80c79561edea0d08e7b.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a3/a345d294834ba5babf58c80c79561edea0d08e7b.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a3/a345d294834ba5babf58c80c79561edea0d08e7b.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/a3/a3d92dfe00b3dead9e6f8b440ab51b78c32e8f55.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/92/92b6a76e08c8018d71e7f9ea5bc652050e3beeda.svn-base:unsigned char	g_ucRebootFlag = 0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ac/ac063c27a66029e8d750ac5aae1e862ac92cb565.svn-base:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ac/ac4ea1808dfc52ae78bef8df1f7083cd9b29cb26.svn-base:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Open = %d\n", iFd);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usTaskNum=%d, iOffset=%d\n", iRet, usTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usDownloadedTaskNum=%d, iOffset=%d\n", iRet, usDownloadedTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, stTaskInfo.ucTaskType=%02x, stTaskInfo.ucDone=%02x, iOffset=%d\n", iRet, stTaskInfo.ucTaskType, stTaskInfo.ucDone, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:		AppLog("[sv_CheckIfRebootNeeded] reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/67/67b4958873dc2f7b8c00f641a43abe1cb71c4614.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/46/46bfd11c16fc2508d8880d05dc2065290849c2e4.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/25/258c8312aa247953070daea0f09b1acef9744681.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/25/258c8312aa247953070daea0f09b1acef9744681.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/25/258c8312aa247953070daea0f09b1acef9744681.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/36/361c0b64257179123f27ef4607f13092893431bc.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/36/361c0b64257179123f27ef4607f13092893431bc.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/36/361c0b64257179123f27ef4607f13092893431bc.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Open = %d\n", iFd);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usTaskNum=%d, iOffset=%d\n", iRet, usTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usDownloadedTaskNum=%d, iOffset=%d\n", iRet, usDownloadedTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, stTaskInfo.ucTaskType=%02x, stTaskInfo.ucDone=%02x, iOffset=%d\n", iRet, stTaskInfo.ucTaskType, stTaskInfo.ucDone, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:		AppLog("[sv_CheckIfRebootNeeded] reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/35/354eea3fea3781a8b264eb7863313efa0434a89b.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0d/0dd30b83440a657d20b7656b56f3bd4fb89c00c3.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0d/0dd30b83440a657d20b7656b56f3bd4fb89c00c3.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0d/0dd30b83440a657d20b7656b56f3bd4fb89c00c3.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ca/caee62d9e256e717b3ee2dac5c25f6a3f5eec23d.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ca/caee62d9e256e717b3ee2dac5c25f6a3f5eec23d.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/ca/caee62d9e256e717b3ee2dac5c25f6a3f5eec23d.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/f0/f004f27d085875f7033a6cb517cfec5c0053f8d2.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/9a/9ac9ab5a2e9e2889b9cffaf54ac8c5a69a5e445c.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/9a/9ac9ab5a2e9e2889b9cffaf54ac8c5a69a5e445c.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/9a/9ac9ab5a2e9e2889b9cffaf54ac8c5a69a5e445c.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/98/98d867d2dba0ec16c607f5e888da6c3df46d75ea.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/98/98f8f3203ae76675ceb396f91e472afc1c01f3bd.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/98/98f8f3203ae76675ceb396f91e472afc1c01f3bd.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/98/98f8f3203ae76675ceb396f91e472afc1c01f3bd.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/98/98d96d1e0918734550a68320da1a464a0499b749.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Open = %d\n", iFd);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usTaskNum=%d, iOffset=%d\n", iRet, usTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, usDownloadedTaskNum=%d, iOffset=%d\n", iRet, usDownloadedTaskNum, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:	AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Read=%d, stTaskInfo.ucTaskType=%02x, stTaskInfo.ucDone=%02x, iOffset=%d\n", iRet, stTaskInfo.ucTaskType, stTaskInfo.ucDone, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:		AppLog("[sv_CheckIfRebootNeeded] PdkFile_Seek=%d, iOffset=%d\n", iRet, iOffset);
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:		AppLog("[sv_CheckIfRebootNeeded] reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/82/82e7a4d52c1e88310b3779bb7c0b4c3b31b98cef.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0f/0f8bd37ff7116a331d7e1660c283afdc8fac50e5.svn-base:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0f/0f8bd37ff7116a331d7e1660c283afdc8fac50e5.svn-base:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0f/0f8bd37ff7116a331d7e1660c283afdc8fac50e5.svn-base:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0f/0f8bd37ff7116a331d7e1660c283afdc8fac50e5.svn-base:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0f/0f8bd37ff7116a331d7e1660c283afdc8fac50e5.svn-base:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0f/0f8bd37ff7116a331d7e1660c283afdc8fac50e5.svn-base:		EL_LOG(LOG_DEBUG, LOG_TAG, __FUNCTION__, __LINE__, "reboot...\n");
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0f/0f8bd37ff7116a331d7e1660c283afdc8fac50e5.svn-base:		g_ucRebootFlag = 0x01;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/0f/0f8bd37ff7116a331d7e1660c283afdc8fac50e5.svn-base:		sv_CheckIfRebootNeeded();
+pax-linux-tools/svn_easyLink_project/.svn/pristine/68/68c68c40f98a556064f5189a01c79b6c063900d2.svn-base:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/6b/6b151e9186805147a346afab92011f973b05f92e.svn-base:unsigned char	g_ucRebootFlag = 0x00;
+pax-linux-tools/svn_easyLink_project/.svn/pristine/08/086245c5a228c71d8400f827ae6dbfe625bcd2d7.svn-base:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/svn_easyLink_project/.svn/pristine/08/086245c5a228c71d8400f827ae6dbfe625bcd2d7.svn-base:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/svn_easyLink_project/.svn/pristine/08/086245c5a228c71d8400f827ae6dbfe625bcd2d7.svn-base:			Reboot();
+pax-linux-tools/svn_easyLink_project/inc/global.h:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/BH_Procco/SelectPay-NEC/tags/V0.01.0005/Src/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/SelectPay-NEC/tags/V0.01.0005/Src/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/SelectPay-NEC/tags/V0.01.0005/Src/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/SelectPay-NEC/dev/Src/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/SelectPay-NEC/dev/Src/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/SelectPay-NEC/dev/Src/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/Albaraka/tags/V0.05.0018/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/Albaraka/tags/V0.05.0018/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/Albaraka/tags/V0.05.0018/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/Albaraka/dev/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/Albaraka/dev/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/Albaraka/dev/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/TAS_HEEL/tags/V0.01.0017/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/TAS_HEEL/tags/V0.01.0017/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/TAS_HEEL/tags/V0.01.0017/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/TAS_HEEL/dev/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/TAS_HEEL/dev/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/TAS_HEEL/dev/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0008_20160928/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0008_20160928/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0008_20160928/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0009_20161101/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0009_20161101/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0009_20161101/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0010_20161207/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0010_20161207/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0010_20161207/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0011_20170111/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0011_20170111/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0011_20170111/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0011_20161222/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0011_20161222/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/ZAIN/tags/V0.01.0011_20161222/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/ZAIN/dev/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/ZAIN/dev/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/ZAIN/dev/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/CPA_ADIB/tags/V0.06.0040/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/CPA_ADIB/tags/V0.06.0040/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/CPA_ADIB/dev/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/CPA_ADIB/dev/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/BANK/tags/V0.01.0002/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/BANK/tags/V0.01.0002/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/BANK/tags/V0.01.0002/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/BANK/dev/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/BANK/dev/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/BANK/dev/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/Ijara/tags/V0.05.0017/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/Ijara/tags/V0.05.0017/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/Ijara/tags/V0.05.0017/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/BH_Procco/Ijara/dev/vxlibs.c:						Reboot();
+pax-linux-tools/BH_Procco/Ijara/dev/vxlibs.c:                    Reboot();
+pax-linux-tools/BH_Procco/Ijara/dev/Apiman.h:#define INIT_BOOT     0
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V160920_5.06fa/transaction_salesman.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V160920_5.06fa/transaction_salesman.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V160920_5.06fa/framework_salesman.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V170109_5.08fa/transaction_salesman.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V170109_5.08fa/transaction_salesman.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V170109_5.08fa/framework_salesman.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V170106_5.07fa/transaction_salesman.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V170106_5.07fa/transaction_salesman.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Salesmen app/tags/V170106_5.07fa/framework_salesman.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Salesmen app/dev/transaction_salesman.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Salesmen app/dev/transaction_salesman.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Salesmen app/dev/framework_salesman.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.45fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161125_S5.48fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.54fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170106_S5.49fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.55fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161122_S5.47fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170109_S5.50fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.51fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170413_S5.52fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V160323_S5.44fa/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170428_S5.56fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V161117_S5.46fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/tags/V170414_S5.53fa/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:				PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/global_data_merchant.c:		PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/framework.h:	11. s80 reboot automatically after finishing software update.
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/transaction_merchant.c:		DispString("Pls ReBoot!", DISPLAYLINE | DISP_LINE_CENTER);
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/transaction_merchant.c:		Reboot();
+pax-linux-tools/TR_INNOVA/Merchant app/dev/Src/framework_merchant.c:			PubDispString("Please reboot", 5 | DISP_LINE_CENTER);
+pax-linux-tools/training_doc/附件二 Java课件与笔记/java_lecture_prepare/.idea/workspace.xml:    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+pax-linux-tools/extra_document/EL_M/src/remotedownload.c:static void sv_CheckIfRebootNeeded()
+pax-linux-tools/extra_document/EL_M/src/remotedownload.c:	unsigned char	ucRebootFlag=0x00;
+pax-linux-tools/extra_document/EL_M/src/remotedownload.c:			ucRebootFlag = ucRebootFlag | 0x0F;
+pax-linux-tools/extra_document/EL_M/src/remotedownload.c:			ucRebootFlag = ucRebootFlag | 0xF0;
+pax-linux-tools/extra_document/EL_M/src/remotedownload.c:	if(ucRebootFlag == 0xFF)
+pax-linux-tools/extra_document/EL_M/src/remotedownload.c:		EL_LOG(LOG_DEBUG, LOG_TAG, __FUNCTION__, __LINE__, "reboot...\n");
+pax-linux-tools/extra_document/EL_M/src/remotedownload.c:		g_ucRebootFlag = 0x01;
+pax-linux-tools/extra_document/EL_M/src/remotedownload.c:		sv_CheckIfRebootNeeded();
+pax-linux-tools/extra_document/EL_M/src/filedownload.c:		g_ucRebootFlag = 0x01;	// Added by ZhangYuan 2016-10-27 reboot if download app/monitor/font success
+pax-linux-tools/extra_document/EL_M/src/global.c:unsigned char	g_ucRebootFlag = 0x00;
+pax-linux-tools/extra_document/EL_M/src/comm.c:		// Added by zhangyuan 2016-09-27 reboot after download the app/monitor/font ========
+pax-linux-tools/extra_document/EL_M/src/comm.c:		if(g_ucRebootFlag == 0x01)
+pax-linux-tools/extra_document/EL_M/src/comm.c:			Reboot();
+pax-linux-tools/extra_document/EL_M/inc/global.h:extern unsigned char	g_ucRebootFlag;
+pax-linux-tools/extra_document/mobile_pay/src/mPayExchange.h:	MOBILEPAY_BOOT_EVENT		 = '1',
+pax-linux-tools/extra_document/mobile_pay/src/mPayExchange.h:	char cReason; 		// �1� boot, �2� configuration end, �3� payment,
+pax-linux-tools/extra_document/mobile_pay/src/command.h:int Command_Boot(MOBILEPAYDATAECR *ptMPdata);
+pax-linux-tools/extra_document/mobile_pay/src/command.c:int Command_Boot(MOBILEPAYDATAECR *ptMPdata)
+pax-linux-tools/extra_document/mobile_pay/src/command.c:	//save the transaction informations first, if error in the following flow, cancel it in next boot.
+pax-linux-tools/extra_document/mobile_pay/src/command.c:	Pax_Log(LOG_INFO, "%s - %d TRANSTYPE_BOOT", __FUNCTION__, __LINE__);
+pax-linux-tools/extra_document/mobile_pay/src/main.c:		case MOBILEPAY_BOOT_EVENT:
+pax-linux-tools/extra_document/mobile_pay/src/main.c:			Pax_Log(LOG_INFO, "%s - %d MOBILEPAY_BOOT_EVENT", __FUNCTION__, __LINE__);
+pax-linux-tools/extra_document/mobile_pay/src/main.c:			iRet = Command_Boot(&tMPdata);
+pax-linux-tools/2.8.13_prolin_fork/MiniPos/MiniPos/pkg/miniPOS2MAINAPP_waiter_ID/miniPOS2MAINAPP/inc/miniPOS2MAINAPP.h:/** MAINAPP starts miniPOS after boot           */
+pax-linux-tools/2.8.13_prolin_fork/MiniPos/MiniPos/pkg/miniPOS2MAINAPP_20190609_waiterID/miniPOS2MAINAPP/inc/miniPOS2MAINAPP.h:/** MAINAPP starts miniPOS after boot           */
+pax-linux-tools/dev/src/MID/structDefine.h:#define BID_REBOOT	7
+pax-linux-tools/dev/src/MID/sys.h:int Reboot();
+pax-linux-tools/dev/src/initpos.c:        strcat(szBuff, _T("REBOOT..."));
+pax-linux-tools/dev/src/initpos.c:        Reboot();
+pax-linux-tools/dev/src/initpos.c:		strcat(szBuff, _T("PLS REBOOT POS."));

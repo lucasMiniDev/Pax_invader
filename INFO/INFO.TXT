@@ -1,0 +1,37 @@
+__________________________________________________________________________________________________________
+
+============================== RELATORIO DE HARDWARE HACKING PAX POS D195-3G =============================
+__________________________________________________________________________________________________________
+
+INFORMAÇÕES SOBRE A MAQUININHA:
+
+  FABRICANTE: PAX TECNOLOGIES
+  MODELO: D195-3G
+  SOC: SCIMX5G3CVML5ABCTG82821 2N52P CHINA NUGBCTM
+  MEMORIA: desconhecido
+  NAND: desconhecido
+  UART: NÃO DESCOBERTO
+  
+  TECLAS NUM-PAD ALFA-NUMERICO:
+    0 1 2 3 4 5 6 7 8 9 F1 F2 CANCELA LIMPA ENTER
+  LATERAL:
+    BOTÃO MENU 
+  TOPO:
+    BOTÃO POWER
+
+  LINKS, PDF E DOC:
+  https://pt.scribd.com/document/825160300/Firmware-Update-Tools-for-D195-D295
+  https://github.com/sqf-ice/pos_project
+  https://github.com/370network/pax-s920/
+  https://community.nxp.com/t5/i-MX-Processors/Changing-UART-debug-from-uart2-to-uart1-on-imx8MM/m-      p/1718671
+  https://www.nxp.com/docs/en/user-guide/UG10163.pdf
+  https://docs.nordicsemi.com/bundle/ncs-2.5.2/page/zephyr/boards/arm/mimx8mm_phyboard_polis/doc/ index.html 
+  https://lucasteske.dev/pt/2025/09/running-code-in-pax-machines
+
+
+
+  
+  
+DESCOBERTAS:
+
+se seguar o botão power + menu ele liga em modod de update onde coversamos com a firmware
